@@ -1,0 +1,68 @@
+.terminal {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: none;
+  font: normal 16px/1 "Lucida Console", Monaco, monospace;
+  color: #00FF00;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: rgb(0,0,0);
+}
+
+body {
+  background-color: black
+}
+
+a {
+	color: #00FF00;
+}
+
+
+
+ul.nav {
+    width:100%;
+    margin:0 auto;
+    padding:0;
+    list-style:none;
+    background-color:#002F05;
+    text-align:center;
+    font-family: sans-serif; 
+}
+
+
+.nav li { 
+    display:inline-block;
+    width:25%;
+    margin:0;
+    padding:0;
+}
+
+.nav a {
+    text-align:center;
+    padding:12px 0 13px 0;
+    margin:0;
+    color: #00FF00;
+    display:block;
+    text-decoration: none;
+}
+
+.nav a.current {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav a:hover { 
+    background:#001a00;
+    border:none;
+}
+
+ul.nav li:first-child a{
+    border:none;
+}
+
+ul.nav li:last-child a {
+    border:none;
+}
